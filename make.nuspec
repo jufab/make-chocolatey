@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>make-new</id>
+    <version>3.81</version>
+    <owners>Julien Fabre</owners>
+    <!-- ============================== -->
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>New Make for Windows</title>
+    <authors>Mathias Michaelis</authors>
+    <description>Make is a tool which controls the generation of executables and other non-source files of a program from the program's source files. Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files. When you write a program, you should write a makefile for it, so that it is possible to use Make to build and install the program.</description>
+    <tags>make</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
